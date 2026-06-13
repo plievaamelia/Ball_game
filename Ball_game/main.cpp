@@ -35,9 +35,10 @@ int main() {
                 cin.ignore(1000, '\n');
             }
             cin.ignore(1000, '\n');
+            cout<<"Введите цвета (от 0 до 9): ";
             for (int i = 0; i < balls_amount; i++) {
                 int color;
-                while (!(cin >> color) || color > 10 || color < 0) { 
+                while (!(cin >> color) || color > 9 || color < 0) { 
                     cout << "Неверный выбор! Введите цифру от 0 до 9: ";
                     cin.clear();
                     cin.ignore(1000, '\n');
