@@ -59,7 +59,7 @@ int main() {
             cout << "Количество шаров в последовательности: " << balls_amount << endl;
             for (int i = 0; i < balls_amount; i++) {
                 if (!(file >> color) || color > 9 || color < 0) { 
-                    cout << "Неверные входные данные! Цвет каждого шара должен быть цифрой от 0 до 9: ";
+                    cout << "Неверные входные данные! Цвет каждого шара должен быть цифрой от 0 до 9 ";
                     return 1;
                 }
                 balls.push_back(color);
