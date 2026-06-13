@@ -19,8 +19,5 @@ public:
     void push_back(int color);
     void removeNode(Node* node);
     int removeChains();
-    int getSize() const;
-    void print() const;
-    void clear(); 
     int countChains() const; 
 };
